@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/glenn/rit/explore/wharpha/core/build/CMakeFiles/bootloader
+/home/glenn/rit/explore/wharpha/core/build/CMakeFiles/bootloader.rule
+/home/glenn/rit/explore/wharpha/core/build/CMakeFiles/bootloader-complete.rule
+/home/glenn/rit/explore/wharpha/core/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/glenn/rit/explore/wharpha/core/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/glenn/rit/explore/wharpha/core/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/glenn/rit/explore/wharpha/core/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/glenn/rit/explore/wharpha/core/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/glenn/rit/explore/wharpha/core/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/glenn/rit/explore/wharpha/core/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
