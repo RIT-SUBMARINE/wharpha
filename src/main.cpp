@@ -1,18 +1,30 @@
 #include <Arduino.h>
+#include <Adafruit_NeoPixel.h>
 
+
+#define RGB_PIN 18
+
+
+Adafruit_NeoPixel pixel(1, RGB_PIN, NEO_GRB+NEO_KHZ800);
 // put function declarations here:
-int myFunction(int, int);
+void colorCycle();
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  pixel.begin();
+  pixel.clear();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  colorCycle();
+  pixel.show();
+  delay(200);
 }
 
 // put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+void colorCycle() {
+  int r = rand() % 255 +1;
+  int g = rand() % 255 +1;
+  int b = rand() % 255 +1;
+
+  pixel.setPixelColor(0, pixel.Color(255, 0, 0));  
 }
